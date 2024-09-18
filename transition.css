@@ -1,0 +1,55 @@
+.class{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    border: 4px solid red;
+    /* border-radius: 50%; */
+    text-align: center;
+    position: absolute;
+    left: 500px;
+    top: 200px;
+    /* transition: all 10s ease-in 1s; */
+    /* transform: rotate(45deg); */
+    /* rotate: x 180deg; */
+    /* transform: scale(2,1); */
+    /* animation-name: coloranimate;
+    animation-duration: 2s; */
+    /* animation-timing-function: ease-in; */
+    /* animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+    animation: coloranimate 10s ease-in 0s infinite normal;
+}
+/* #one{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+} */
+@keyframes coloranimate {
+    0%{ 
+        left: 0px;
+        background-color: blue;
+       }
+       50%{
+        background-color: black;
+        color: green;
+       }
+    100%{
+        left: 200px;
+        background-color: yellow;
+        color: red;
+    }
+}
+.class:hover{
+    /* background-color: black;
+    font-size: 30px;
+    color: white; */
+    /* transform: translate(300px,300px); */
+    /* transform: skew(90deg); */
+}
+.class:active{
+    /* background-color: pink;
+    color: white;
+    font-size: 25px; */
+
+}
