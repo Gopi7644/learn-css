@@ -1,15 +1,18 @@
-div{
-    height: 100px;
-    width: 100px;
-    border: 3px solid blue;
-    display: inline-block;
-    background-color: pink;
+.box {
+  height: 100px;
+  width: 100px;
+  border: 3px solid blue;
+  display: inline-block;
+  background-color: pink;
 }
-#box3{
-background-image: url(image/animal.jpg);
-background-size: cover;
+#box3 {
+  background-image: url(image/animal.jpg);
+  background-size: cover;
 }
-body{
-    background-image: url(image/animal.jpg);
-    background-size: cover;
+body {
+  background-image: url(image/animal.jpg);
+  background-size: cover;
+}
+.box4 {
+  background-color: red;
 }
